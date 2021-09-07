@@ -22,6 +22,11 @@
             >Quiz
           </router-link>
         </li>
+        <li class="inline-block mx-10 my-5 underline">
+          <router-link to="/piniaTodo" class="rounded-md hover:bg-gray-800"
+            >Todo(with pinia)
+          </router-link>
+        </li>
       </ul>
     </nav>
   </div>

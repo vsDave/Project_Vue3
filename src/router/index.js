@@ -4,6 +4,7 @@ import Todo from '../views/Todo.vue'
 import services from '../views/services.vue'
 import calculator from '../views/calculator.vue'
 import quiz from '../views/quiz.vue'
+import piniaTodo from '../views/piniaTodo.vue'
 
 // Vue.use(VueRouter)
 
@@ -28,6 +29,10 @@ const routes = [
   {
     path: '/quiz',
     component: quiz,
+  },
+  {
+    path: '/piniaTodo',
+    component: piniaTodo,
   },
 ]
 
